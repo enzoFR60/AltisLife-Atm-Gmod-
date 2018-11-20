@@ -8,7 +8,7 @@ L'addon comporte, un atm et une machine a carte :p
 
 ►Mon Twitch: https://www.twitch.tv/enzofr60
 
-Steam : 
+Steam : https://steamcommunity.com/sharedfiles/filedetails/?id=1569478038
  
 Capture d'écran :
 <p><img src="https://media.discordapp.net/attachments/489882842881458187/514325180294627340/512x512gmodaltislifeatm.jpg?width=480&height=480" alt="Addon view" data-canonical-src="https://media.discordapp.net/attachments/489882842881458187/514325180294627340/512x512gmodaltislifeatm.jpg?width=480&height=480"></p>
