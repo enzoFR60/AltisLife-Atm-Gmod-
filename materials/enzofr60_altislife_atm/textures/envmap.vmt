@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$envmaptint" "[ .2 .2 .2 ]"
+	"$model" 1
+	"$nocull" 1	
+	// Unchangeable color & alpha:
+	"$colorfix" "{255 255 255}"
+	"$alphafix" 1
+	"$translucent" 1
+	"$envmap" "env_cubemap"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar $color
+		}
+		"Equals"
+		{
+			srcVar1 $alphafix
+			resultVar $alpha
+		}
+	}
+}
