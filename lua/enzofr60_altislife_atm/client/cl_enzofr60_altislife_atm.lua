@@ -150,6 +150,11 @@ net.Receive( "enzoFR60:AltisLife:Atm:System:OpenMenu", function()
 		surface.DrawRect(0, 0, self:GetWide(), self:GetTall())
 		self:DrawTextEntryText(Color(255, 255, 255), Color(30, 130, 255), Color(255, 255, 255))
 	end
+	money.OnGetFocus = function( pnl )
+	   if money:GetText() == "Montant ?" then
+		money:SetText("")
+	   end
+	end
 
 	local DButton1 = vgui.Create( "DButton", DFrame1 )
 	DButton1:SetSize( scrw*.05, scrh*.02 )
@@ -358,6 +363,11 @@ net.Receive( "enzoFR60:AltisLife:Atm:System:Card:OpenMenu", function()
 		surface.SetDrawColor(0, 0, 0, 120)
 		surface.DrawRect(0, 0, self:GetWide(), self:GetTall())
 		self:DrawTextEntryText(Color(255, 255, 255), Color(30, 130, 255), Color(255, 255, 255))
+	end
+	money.OnGetFocus = function( pnl )
+	   if money:GetText() == "Montant ?" then
+		money:SetText("")
+	   end
 	end
 
 	if owneratmentity == LocalPlayer() then
